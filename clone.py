@@ -9,6 +9,6 @@ def call_clone():
   time.sleep(SLEEP_TIME)
   # allow the request to the clone to timeout and supress the error
   try:
-    requests.get(clone_url, , timeout=0.5)
+    requests.get(clone_url, timeout=0.5)
   except:
     pass
