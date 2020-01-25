@@ -10,7 +10,6 @@ def moodify():
     status = set_mood_colors(album_art)
     call_clone()
   else:
-    stop_cron_service()
     status = set_default_colors()
 
   return {
